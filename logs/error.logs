@@ -1,0 +1,345 @@
+[2020-04-21 00:06:40 +0800] [30345] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 00:06:40 +0800] [30345] [INFO] Listening at: http://127.0.0.1:8000 (30345)
+[2020-04-21 00:06:40 +0800] [30345] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 00:06:40 +0800] [30362] [INFO] Booting worker with pid: 30362
+[2020-04-21 00:06:40 +0800] [30363] [INFO] Booting worker with pid: 30363
+[2020-04-21 00:06:40 +0800] [30364] [INFO] Booting worker with pid: 30364
+[2020-04-21 00:06:40 +0800] [30367] [INFO] Booting worker with pid: 30367
+[2020-04-21 00:06:41 +0800] [30371] [INFO] Booting worker with pid: 30371
+[2020-04-21 00:06:41 +0800] [30372] [INFO] Booting worker with pid: 30372
+[2020-04-21 00:06:41 +0800] [30375] [INFO] Booting worker with pid: 30375
+[2020-04-21 00:06:41 +0800] [30378] [INFO] Booting worker with pid: 30378
+this is process_request
+this is not in process_request
+Not Found: /favicon.ico
+[2020-04-21 00:09:02 +0800] [30345] [INFO] Handling signal: term
+[2020-04-21 00:09:02 +0800] [30367] [INFO] Worker exiting (pid: 30367)
+[2020-04-21 00:09:02 +0800] [30363] [INFO] Worker exiting (pid: 30363)
+[2020-04-21 00:09:02 +0800] [30378] [INFO] Worker exiting (pid: 30378)
+[2020-04-21 00:09:02 +0800] [30371] [INFO] Worker exiting (pid: 30371)
+[2020-04-21 00:09:02 +0800] [30375] [INFO] Worker exiting (pid: 30375)
+[2020-04-21 00:09:02 +0800] [30372] [INFO] Worker exiting (pid: 30372)
+[2020-04-21 00:09:02 +0800] [30364] [INFO] Worker exiting (pid: 30364)
+[2020-04-21 00:09:02 +0800] [30362] [INFO] Worker exiting (pid: 30362)
+[2020-04-21 00:09:03 +0800] [30345] [INFO] Shutting down: Master
+[2020-04-21 00:09:40 +0800] [30979] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 00:09:40 +0800] [30979] [INFO] Listening at: http://127.0.0.1:8000 (30979)
+[2020-04-21 00:09:40 +0800] [30979] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 00:09:40 +0800] [30996] [INFO] Booting worker with pid: 30996
+[2020-04-21 00:09:40 +0800] [30997] [INFO] Booting worker with pid: 30997
+[2020-04-21 00:09:40 +0800] [30998] [INFO] Booting worker with pid: 30998
+[2020-04-21 00:09:40 +0800] [30999] [INFO] Booting worker with pid: 30999
+[2020-04-21 00:09:40 +0800] [31000] [INFO] Booting worker with pid: 31000
+[2020-04-21 00:09:40 +0800] [31001] [INFO] Booting worker with pid: 31001
+[2020-04-21 00:09:40 +0800] [31002] [INFO] Booting worker with pid: 31002
+[2020-04-21 00:09:40 +0800] [31003] [INFO] Booting worker with pid: 31003
+this is process_request
+[2020-04-21 00:10:03 +0800] [30979] [INFO] Handling signal: term
+[2020-04-21 00:10:03 +0800] [30997] [INFO] Worker exiting (pid: 30997)
+[2020-04-21 00:10:03 +0800] [30996] [INFO] Worker exiting (pid: 30996)
+[2020-04-21 00:10:03 +0800] [31000] [INFO] Worker exiting (pid: 31000)
+[2020-04-21 00:10:03 +0800] [31003] [INFO] Worker exiting (pid: 31003)
+[2020-04-21 00:10:03 +0800] [30998] [INFO] Worker exiting (pid: 30998)
+[2020-04-21 00:10:03 +0800] [31001] [INFO] Worker exiting (pid: 31001)
+[2020-04-21 00:10:03 +0800] [30999] [INFO] Worker exiting (pid: 30999)
+[2020-04-21 00:10:04 +0800] [31002] [INFO] Worker exiting (pid: 31002)
+[2020-04-21 00:10:04 +0800] [30979] [INFO] Shutting down: Master
+[2020-04-21 00:10:52 +0800] [31099] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 00:10:52 +0800] [31099] [INFO] Listening at: http://127.0.0.1:8000 (31099)
+[2020-04-21 00:10:52 +0800] [31099] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 00:10:52 +0800] [31116] [INFO] Booting worker with pid: 31116
+[2020-04-21 00:10:52 +0800] [31117] [INFO] Booting worker with pid: 31117
+[2020-04-21 00:10:52 +0800] [31119] [INFO] Booting worker with pid: 31119
+[2020-04-21 00:10:52 +0800] [31120] [INFO] Booting worker with pid: 31120
+[2020-04-21 00:10:53 +0800] [31121] [INFO] Booting worker with pid: 31121
+[2020-04-21 00:10:53 +0800] [31123] [INFO] Booting worker with pid: 31123
+[2020-04-21 00:10:53 +0800] [31125] [INFO] Booting worker with pid: 31125
+[2020-04-21 00:10:53 +0800] [31127] [INFO] Booting worker with pid: 31127
+this is process_request
+this is process_request
+this is process_request
+[2020-04-21 00:11:17 +0800] [31119] [INFO] Worker exiting (pid: 31119)
+[2020-04-21 00:11:17 +0800] [31125] [INFO] Worker exiting (pid: 31125)
+[2020-04-21 00:11:17 +0800] [31120] [INFO] Worker exiting (pid: 31120)
+[2020-04-21 00:11:17 +0800] [31123] [INFO] Worker exiting (pid: 31123)
+[2020-04-21 00:11:17 +0800] [31121] [INFO] Worker exiting (pid: 31121)
+[2020-04-21 00:11:17 +0800] [31127] [INFO] Worker exiting (pid: 31127)
+[2020-04-21 00:11:17 +0800] [31117] [INFO] Worker exiting (pid: 31117)
+[2020-04-21 00:11:17 +0800] [31099] [INFO] Handling signal: term
+[2020-04-21 00:11:19 +0800] [31116] [INFO] Worker exiting (pid: 31116)
+[2020-04-21 00:11:20 +0800] [31099] [INFO] Shutting down: Master
+[2020-04-21 00:11:26 +0800] [31175] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 00:11:26 +0800] [31175] [INFO] Listening at: http://127.0.0.1:8000 (31175)
+[2020-04-21 00:11:26 +0800] [31175] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 00:11:26 +0800] [31192] [INFO] Booting worker with pid: 31192
+[2020-04-21 00:11:26 +0800] [31193] [INFO] Booting worker with pid: 31193
+[2020-04-21 00:11:26 +0800] [31194] [INFO] Booting worker with pid: 31194
+[2020-04-21 00:11:26 +0800] [31195] [INFO] Booting worker with pid: 31195
+[2020-04-21 00:11:26 +0800] [31196] [INFO] Booting worker with pid: 31196
+[2020-04-21 00:11:26 +0800] [31197] [INFO] Booting worker with pid: 31197
+[2020-04-21 00:11:26 +0800] [31198] [INFO] Booting worker with pid: 31198
+[2020-04-21 00:11:26 +0800] [31200] [INFO] Booting worker with pid: 31200
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+[2020-04-21 00:11:52 +0800] [31175] [INFO] Handling signal: term
+[2020-04-21 00:11:52 +0800] [31193] [INFO] Worker exiting (pid: 31193)
+[2020-04-21 00:11:52 +0800] [31192] [INFO] Worker exiting (pid: 31192)
+[2020-04-21 00:11:52 +0800] [31197] [INFO] Worker exiting (pid: 31197)
+[2020-04-21 00:11:52 +0800] [31194] [INFO] Worker exiting (pid: 31194)
+[2020-04-21 00:11:52 +0800] [31196] [INFO] Worker exiting (pid: 31196)
+[2020-04-21 00:11:52 +0800] [31200] [INFO] Worker exiting (pid: 31200)
+[2020-04-21 00:11:52 +0800] [31198] [INFO] Worker exiting (pid: 31198)
+[2020-04-21 00:11:54 +0800] [31195] [INFO] Worker exiting (pid: 31195)
+[2020-04-21 00:11:55 +0800] [31175] [INFO] Shutting down: Master
+[2020-04-21 00:14:38 +0800] [31422] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 00:14:38 +0800] [31422] [INFO] Listening at: http://127.0.0.1:8000 (31422)
+[2020-04-21 00:14:38 +0800] [31422] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 00:14:38 +0800] [31439] [INFO] Booting worker with pid: 31439
+[2020-04-21 00:14:38 +0800] [31440] [INFO] Booting worker with pid: 31440
+[2020-04-21 00:14:38 +0800] [31442] [INFO] Booting worker with pid: 31442
+[2020-04-21 00:14:38 +0800] [31443] [INFO] Booting worker with pid: 31443
+[2020-04-21 00:14:38 +0800] [31445] [INFO] Booting worker with pid: 31445
+[2020-04-21 00:14:38 +0800] [31446] [INFO] Booting worker with pid: 31446
+[2020-04-21 00:14:38 +0800] [31448] [INFO] Booting worker with pid: 31448
+[2020-04-21 00:14:38 +0800] [31449] [INFO] Booting worker with pid: 31449
+this is process_request
+this is process_request
+this is not in process_request
+Not Found: /favicon.ico
+[2020-04-21 00:15:52 +0800] [31422] [INFO] Handling signal: term
+[2020-04-21 00:15:52 +0800] [31440] [INFO] Worker exiting (pid: 31440)
+[2020-04-21 00:15:52 +0800] [31445] [INFO] Worker exiting (pid: 31445)
+[2020-04-21 00:15:52 +0800] [31446] [INFO] Worker exiting (pid: 31446)
+[2020-04-21 00:15:52 +0800] [31442] [INFO] Worker exiting (pid: 31442)
+[2020-04-21 00:15:52 +0800] [31443] [INFO] Worker exiting (pid: 31443)
+[2020-04-21 00:15:52 +0800] [31448] [INFO] Worker exiting (pid: 31448)
+[2020-04-21 00:15:52 +0800] [31449] [INFO] Worker exiting (pid: 31449)
+[2020-04-21 00:15:53 +0800] [31439] [INFO] Worker exiting (pid: 31439)
+[2020-04-21 00:15:53 +0800] [31422] [INFO] Shutting down: Master
+[2020-04-21 00:15:54 +0800] [31548] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 00:15:54 +0800] [31548] [INFO] Listening at: http://127.0.0.1:9000 (31548)
+[2020-04-21 00:15:54 +0800] [31548] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 00:15:54 +0800] [31565] [INFO] Booting worker with pid: 31565
+[2020-04-21 00:15:54 +0800] [31566] [INFO] Booting worker with pid: 31566
+[2020-04-21 00:15:54 +0800] [31567] [INFO] Booting worker with pid: 31567
+[2020-04-21 00:15:54 +0800] [31569] [INFO] Booting worker with pid: 31569
+[2020-04-21 00:15:54 +0800] [31571] [INFO] Booting worker with pid: 31571
+[2020-04-21 00:15:54 +0800] [31572] [INFO] Booting worker with pid: 31572
+[2020-04-21 00:15:54 +0800] [31574] [INFO] Booting worker with pid: 31574
+[2020-04-21 00:15:54 +0800] [31576] [INFO] Booting worker with pid: 31576
+this is process_request
+this is not in process_request
+Not Found: /favicon.ico
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
+this is process_request
