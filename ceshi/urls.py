@@ -18,5 +18,6 @@ from django.contrib import admin
 from app import api as app_api
 urlpatterns = [
     # url(r'^admin/', admin.site.urls),
-    url(r'^ceshi/app/first_api',app_api.first_api)
+    url(r'^ceshi/app/first_api',app_api.first_api),
+    url(r'^ceshi/app/get_avatar',app_api.get_avatar)
 ]

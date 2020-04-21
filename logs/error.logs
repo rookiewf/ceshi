@@ -343,3 +343,440 @@ this is process_request
 this is process_request
 this is process_request
 this is process_request
+[2020-04-21 22:20:32 +0800] [5323] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:20:32 +0800] [5323] [INFO] Listening at: http://127.0.0.1:9000 (5323)
+[2020-04-21 22:20:32 +0800] [5323] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 22:20:32 +0800] [5326] [INFO] Booting worker with pid: 5326
+[2020-04-21 22:20:32 +0800] [5326] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 362, in import_app
+    app = eval(obj, vars(mod))
+  File "<string>", line 1
+    //127.0.0.1:9000/ceshi/app/get_avatar
+     ^
+SyntaxError: invalid syntax
+[2020-04-21 22:20:32 +0800] [5326] [INFO] Worker exiting (pid: 5326)
+[2020-04-21 22:20:32 +0800] [5327] [INFO] Booting worker with pid: 5327
+[2020-04-21 22:20:32 +0800] [5327] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 362, in import_app
+    app = eval(obj, vars(mod))
+  File "<string>", line 1
+    //127.0.0.1:9000/ceshi/app/get_avatar
+     ^
+SyntaxError: invalid syntax
+[2020-04-21 22:20:32 +0800] [5327] [INFO] Worker exiting (pid: 5327)
+[2020-04-21 22:20:33 +0800] [5323] [INFO] Shutting down: Master
+[2020-04-21 22:20:33 +0800] [5323] [INFO] Reason: Worker failed to boot.
+[2020-04-21 22:20:50 +0800] [5334] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:20:50 +0800] [5334] [INFO] Listening at: http://127.0.0.1:9000 (5334)
+[2020-04-21 22:20:50 +0800] [5334] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 22:20:50 +0800] [5337] [INFO] Booting worker with pid: 5337
+[2020-04-21 22:20:50 +0800] [5337] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 362, in import_app
+    app = eval(obj, vars(mod))
+  File "<string>", line 1
+    //127.0.0.1:9000/ceshi/app/get_avatar
+     ^
+SyntaxError: invalid syntax
+[2020-04-21 22:20:50 +0800] [5337] [INFO] Worker exiting (pid: 5337)
+[2020-04-21 22:20:50 +0800] [5334] [INFO] Shutting down: Master
+[2020-04-21 22:20:50 +0800] [5334] [INFO] Reason: Worker failed to boot.
+[2020-04-21 22:21:18 +0800] [5342] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:21:18 +0800] [5342] [INFO] Listening at: http://127.0.0.1:9000 (5342)
+[2020-04-21 22:21:18 +0800] [5342] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 22:21:18 +0800] [5345] [INFO] Booting worker with pid: 5345
+[2020-04-21 22:21:18 +0800] [5345] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 362, in import_app
+    app = eval(obj, vars(mod))
+  File "<string>", line 1
+    //127.0.0.1:9000
+     ^
+SyntaxError: invalid syntax
+[2020-04-21 22:21:18 +0800] [5345] [INFO] Worker exiting (pid: 5345)
+[2020-04-21 22:21:18 +0800] [5342] [INFO] Shutting down: Master
+[2020-04-21 22:21:18 +0800] [5342] [INFO] Reason: Worker failed to boot.
+[2020-04-21 22:21:23 +0800] [5350] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:21:23 +0800] [5350] [INFO] Listening at: http://127.0.0.1:9000 (5350)
+[2020-04-21 22:21:23 +0800] [5350] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 22:21:23 +0800] [5353] [INFO] Booting worker with pid: 5353
+[2020-04-21 22:21:23 +0800] [5353] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+ModuleNotFoundError: No module named 'https'
+[2020-04-21 22:21:23 +0800] [5353] [INFO] Worker exiting (pid: 5353)
+[2020-04-21 22:21:24 +0800] [5350] [INFO] Shutting down: Master
+[2020-04-21 22:21:24 +0800] [5350] [INFO] Reason: Worker failed to boot.
+[2020-04-21 22:22:02 +0800] [5478] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:22:02 +0800] [5478] [INFO] Listening at: http://127.0.0.1:9000 (5478)
+[2020-04-21 22:22:02 +0800] [5478] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 22:22:02 +0800] [5481] [INFO] Booting worker with pid: 5481
+[2020-04-21 22:22:02 +0800] [5482] [INFO] Booting worker with pid: 5482
+[2020-04-21 22:22:03 +0800] [5482] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+ModuleNotFoundError: No module named 'https'
+[2020-04-21 22:22:03 +0800] [5482] [INFO] Worker exiting (pid: 5482)
+[2020-04-21 22:22:03 +0800] [5481] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+ModuleNotFoundError: No module named 'https'
+[2020-04-21 22:22:03 +0800] [5481] [INFO] Worker exiting (pid: 5481)
+[2020-04-21 22:22:04 +0800] [5478] [INFO] Shutting down: Master
+[2020-04-21 22:22:04 +0800] [5478] [INFO] Reason: Worker failed to boot.
+[2020-04-21 22:22:32 +0800] [5656] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:22:32 +0800] [5656] [INFO] Listening at: http://127.0.0.1:9000 (5656)
+[2020-04-21 22:22:32 +0800] [5656] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 22:22:32 +0800] [5659] [INFO] Booting worker with pid: 5659
+[2020-04-21 22:22:32 +0800] [5660] [INFO] Booting worker with pid: 5660
+[2020-04-21 22:22:32 +0800] [5660] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 362, in import_app
+    app = eval(obj, vars(mod))
+  File "<string>", line 1
+    //127.0.0.1:9000
+     ^
+SyntaxError: invalid syntax
+[2020-04-21 22:22:32 +0800] [5660] [INFO] Worker exiting (pid: 5660)
+[2020-04-21 22:22:32 +0800] [5659] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 362, in import_app
+    app = eval(obj, vars(mod))
+  File "<string>", line 1
+    //127.0.0.1:9000
+     ^
+SyntaxError: invalid syntax
+[2020-04-21 22:22:32 +0800] [5659] [INFO] Worker exiting (pid: 5659)
+[2020-04-21 22:22:32 +0800] [5656] [INFO] Shutting down: Master
+[2020-04-21 22:22:32 +0800] [5656] [INFO] Reason: Worker failed to boot.
+[2020-04-21 22:22:58 +0800] [5665] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:22:58 +0800] [5665] [INFO] Listening at: http://127.0.0.1:9000 (5665)
+[2020-04-21 22:22:58 +0800] [5665] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 22:22:58 +0800] [5668] [INFO] Booting worker with pid: 5668
+[2020-04-21 22:22:58 +0800] [5668] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 362, in import_app
+    app = eval(obj, vars(mod))
+  File "<string>", line 1
+    //127.0.0.1:9000
+     ^
+SyntaxError: invalid syntax
+[2020-04-21 22:22:58 +0800] [5668] [INFO] Worker exiting (pid: 5668)
+[2020-04-21 22:22:58 +0800] [5669] [INFO] Booting worker with pid: 5669
+[2020-04-21 22:22:58 +0800] [5669] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 362, in import_app
+    app = eval(obj, vars(mod))
+  File "<string>", line 1
+    //127.0.0.1:9000
+     ^
+SyntaxError: invalid syntax
+[2020-04-21 22:22:58 +0800] [5669] [INFO] Worker exiting (pid: 5669)
+[2020-04-21 22:22:59 +0800] [5665] [INFO] Shutting down: Master
+[2020-04-21 22:22:59 +0800] [5665] [INFO] Reason: Worker failed to boot.
+[2020-04-21 22:24:26 +0800] [5684] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:24:26 +0800] [5684] [INFO] Listening at: http://127.0.0.1:9000 (5684)
+[2020-04-21 22:24:26 +0800] [5684] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 22:24:26 +0800] [5687] [INFO] Booting worker with pid: 5687
+[2020-04-21 22:24:26 +0800] [5687] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+ModuleNotFoundError: No module named 'https'
+[2020-04-21 22:24:26 +0800] [5687] [INFO] Worker exiting (pid: 5687)
+[2020-04-21 22:24:26 +0800] [5688] [INFO] Booting worker with pid: 5688
+[2020-04-21 22:24:26 +0800] [5688] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+ModuleNotFoundError: No module named 'https'
+[2020-04-21 22:24:26 +0800] [5688] [INFO] Worker exiting (pid: 5688)
+[2020-04-21 22:24:26 +0800] [5684] [INFO] Shutting down: Master
+[2020-04-21 22:24:26 +0800] [5684] [INFO] Reason: Worker failed to boot.
+[2020-04-21 22:24:36 +0800] [5693] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:24:36 +0800] [5693] [INFO] Listening at: http://127.0.0.1:9000 (5693)
+[2020-04-21 22:24:36 +0800] [5693] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 22:24:36 +0800] [5696] [INFO] Booting worker with pid: 5696
+[2020-04-21 22:24:36 +0800] [5696] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 362, in import_app
+    app = eval(obj, vars(mod))
+  File "<string>", line 1
+    //127.0.0.1:9000
+     ^
+SyntaxError: invalid syntax
+[2020-04-21 22:24:36 +0800] [5696] [INFO] Worker exiting (pid: 5696)
+[2020-04-21 22:24:36 +0800] [5697] [INFO] Booting worker with pid: 5697
+[2020-04-21 22:24:36 +0800] [5697] [INFO] Worker exiting (pid: 5697)
+[2020-04-21 22:24:36 +0800] [5693] [INFO] Shutting down: Master
+[2020-04-21 22:24:36 +0800] [5693] [INFO] Reason: Worker failed to boot.
+[2020-04-21 22:25:13 +0800] [5716] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:25:13 +0800] [5716] [INFO] Listening at: http://127.0.0.1:9000 (5716)
+[2020-04-21 22:25:13 +0800] [5716] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 22:25:13 +0800] [5719] [INFO] Booting worker with pid: 5719
+[2020-04-21 22:25:13 +0800] [5719] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 362, in import_app
+    app = eval(obj, vars(mod))
+  File "<string>", line 1
+    //127.0.0.1:9000/
+     ^
+SyntaxError: invalid syntax
+[2020-04-21 22:25:13 +0800] [5719] [INFO] Worker exiting (pid: 5719)
+[2020-04-21 22:25:13 +0800] [5716] [INFO] Shutting down: Master
+[2020-04-21 22:25:13 +0800] [5716] [INFO] Reason: Worker failed to boot.
+[2020-04-21 22:25:56 +0800] [5730] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:25:56 +0800] [5730] [INFO] Listening at: http://127.0.0.1:9000 (5730)
+[2020-04-21 22:25:56 +0800] [5730] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 22:25:56 +0800] [5733] [INFO] Booting worker with pid: 5733
+[2020-04-21 22:25:56 +0800] [5733] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 362, in import_app
+    app = eval(obj, vars(mod))
+  File "<string>", line 1
+    //127.0.0.1:9000/
+     ^
+SyntaxError: invalid syntax
+[2020-04-21 22:25:56 +0800] [5733] [INFO] Worker exiting (pid: 5733)
+[2020-04-21 22:25:56 +0800] [5734] [INFO] Booting worker with pid: 5734
+[2020-04-21 22:25:56 +0800] [5734] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/admin_/.virtualenvs/xiaoban/lib/python3.7/site-packages/gunicorn/util.py", line 362, in import_app
+    app = eval(obj, vars(mod))
+  File "<string>", line 1
+    //127.0.0.1:9000/
+     ^
+SyntaxError: invalid syntax
+[2020-04-21 22:25:56 +0800] [5734] [INFO] Worker exiting (pid: 5734)
+[2020-04-21 22:25:56 +0800] [5730] [INFO] Shutting down: Master
+[2020-04-21 22:25:56 +0800] [5730] [INFO] Reason: Worker failed to boot.
+[2020-04-21 22:26:10 +0800] [5739] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:26:10 +0800] [5739] [INFO] Listening at: http://127.0.0.1:9000 (5739)
+[2020-04-21 22:26:10 +0800] [5739] [INFO] Using worker: egg:meinheld#gunicorn_worker
+[2020-04-21 22:26:10 +0800] [5742] [INFO] Booting worker with pid: 5742
+[2020-04-21 22:26:10 +0800] [5743] [INFO] Booting worker with pid: 5743
+[2020-04-21 22:26:20 +0800] [5748] [INFO] Starting gunicorn 19.9.0
+[2020-04-21 22:26:20 +0800] [5748] [ERROR] Connection in use: ('127.0.0.1', 9000)
+[2020-04-21 22:26:20 +0800] [5748] [ERROR] Retrying in 1 second.
+[2020-04-21 22:26:21 +0800] [5748] [ERROR] Connection in use: ('127.0.0.1', 9000)
+[2020-04-21 22:26:21 +0800] [5748] [ERROR] Retrying in 1 second.
+[2020-04-21 22:26:22 +0800] [5748] [ERROR] Connection in use: ('127.0.0.1', 9000)
+[2020-04-21 22:26:22 +0800] [5748] [ERROR] Retrying in 1 second.
+[2020-04-21 22:26:23 +0800] [5748] [ERROR] Connection in use: ('127.0.0.1', 9000)
+[2020-04-21 22:26:23 +0800] [5748] [ERROR] Retrying in 1 second.
+[2020-04-21 22:26:24 +0800] [5748] [ERROR] Connection in use: ('127.0.0.1', 9000)
+[2020-04-21 22:26:24 +0800] [5748] [ERROR] Retrying in 1 second.
+[2020-04-21 22:26:25 +0800] [5748] [ERROR] Can't connect to ('127.0.0.1', 9000)
+[2020-04-21 22:29:39 +0800] [5739] [INFO] Handling signal: term
+[2020-04-21 22:29:39 +0800] [5743] [INFO] Worker exiting (pid: 5743)
+[2020-04-21 22:29:39 +0800] [5742] [INFO] Worker exiting (pid: 5742)
+[2020-04-21 22:29:40 +0800] [5739] [INFO] Shutting down: Master
