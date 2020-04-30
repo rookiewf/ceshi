@@ -25,5 +25,6 @@ urlpatterns = [
     url(r'^wb_authorized',app_api.wb_authorize),
     url(r'ceshi/app/wb_callback',app_api.wb_callback),
     url(r'^alipay_authorized',app_api.alipay_authorize),
-    url(r'^alipay/callback',app_api.alipay_callback)
+    url(r'^alipay/callback',app_api.alipay_callback),
+    url(r'^ceshi/app/get_avatar',app_api.get_avatar)
 ]

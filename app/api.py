@@ -1,3 +1,4 @@
+
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
@@ -5,13 +6,16 @@ from app.models import User
 from ceshi import cfg
 from libs.http import render_json
 
-
 # Create your views here.
+from app import scripts
+
+
 def first_api(request):
     request.session['name'] = 'xxxx'
     avatar = request.FILES['avatar']
     request.set_cookie(avatar)
     return HttpResponse('hello first_api')
+
 
 
 def render_html(request):
@@ -65,3 +69,10 @@ def alipay_callback(request):
 
 def alipay_authorize(request):
     return redirect()
+def get_avatar(request):
+    avatar = request.FILES.get('avatar')
+    # print(avatar.__dict__,dir(avatar))
+    # dir('对象') 列出对象的所有属性和方法
+    scripts.avatar_download(avatar)
+    return render_json()
+
