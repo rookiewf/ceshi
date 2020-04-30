@@ -18,5 +18,12 @@ from django.contrib import admin
 from app import api as app_api
 urlpatterns = [
     # url(r'^admin/', admin.site.urls),
-    url(r'^ceshi/app/first_api',app_api.first_api)
+    url(r'^ceshi/app/first_api',app_api.first_api),
+    url(r'^ceshi/app/render_html',app_api.render_html),
+    url(r'^ceshi/app/hello',app_api.hello),
+    url(r'^ceshi/app/login',app_api.login),
+    url(r'^wb_authorized',app_api.wb_authorize),
+    url(r'ceshi/app/wb_callback',app_api.wb_callback),
+    url(r'^alipay_authorized',app_api.alipay_authorize),
+    url(r'^alipay/callback',app_api.alipay_callback)
 ]
